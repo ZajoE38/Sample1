@@ -1,5 +1,7 @@
 sudo apt-get install git
 man git
+git help
+git help tutorial
 git --version
 git config --global user.name "name"
 git config --global user.email "email@email.com"
@@ -11,3 +13,10 @@ cd GitTraining/
 git init
 echo "# someHeader" >> README.md
 git add .
+git commit -m "first commit"
+git push - origin master
+git status
+
+touch vendors.txt
+git status
+git add vendors.txt
