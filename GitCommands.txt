@@ -1,0 +1,13 @@
+sudo apt-get install git
+man git
+git --version
+git config --global user.name "name"
+git config --global user.email "email@email.com"
+git config --list
+git config user.name
+git help config
+
+cd GitTraining/
+git init
+echo "# someHeader" >> README.md
+git add .
