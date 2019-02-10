@@ -1,7 +1,9 @@
 sudo apt-get install git
 man git
 git help
+git help push
 git help tutorial
+
 git --version
 git config --global user.name "name"
 git config --global user.email "email@email.com"
@@ -9,14 +11,18 @@ git config --list
 git config user.name
 git help config
 
-cd GitTraining/
+cd WorkingDirectory/
 git init
 echo "# someHeader" >> README.md
 git add .
 git commit -m "first commit"
-git push - origin master
+git push -u origin master
 git status
 
 touch vendors.txt
 git status
+git status -s / git status --short
 git add vendors.txt
+
+git diff --staged (commited vs staged)
+git diff --staged --no-renames (git compares content, not file names)
