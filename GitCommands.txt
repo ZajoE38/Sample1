@@ -34,3 +34,6 @@ git log --patch (full view)
 
 git diff --staged (commited vs staged)
 git diff --staged --no-renames (git compares content, not file names)
+
+git rm vendors.txt (removes file)
+git rm --cached vendors.txt (untrack file)
