@@ -37,3 +37,19 @@ git diff --staged --no-renames (git compares content, not file names)
 
 git rm vendors.txt (removes file)
 git rm --cached vendors.txt (untrack file)
+
+git branch newBranch
+git checkout newBranch
+git checkout -b newBranch
+git add . => git stash
+git stash list
+git stasth show
+
+git checkout master
+git merge devMiso
+i (write message VIM)
+:wq (save and quit VIM)
+
+git reset --soft (from repo to index)
+git reset / git reset --mixed (from repo to working dir)
+git reset --hard (from repo to bin)
