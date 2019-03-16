@@ -36,7 +36,7 @@ git diff --staged (commited vs staged)
 git diff --staged --no-renames (git compares content, not file names)
 
 git rm vendors.txt (removes file)
-git rm --cached vendors.txt (untrack file)
+git rm --cached vendors.txt (untrack only file)
 
 git branch --all
 git branch newBranch
